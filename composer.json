@@ -1,0 +1,25 @@
+{
+    "name": "thwjf156/liberation",
+    "description": "Add hello world automatically",
+    "authors": [
+        {
+            "name": "thwjf156"
+        }
+    ],
+    "require": {
+        "laravel/framework": "8.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thwjf156\\Liberation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thwjf156\\Liberation\\LiberationServiceProvider"
+            ]
+        }
+    }
+}
