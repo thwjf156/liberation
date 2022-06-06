@@ -17,6 +17,7 @@ class Liberation
      */
     public static function __callStatic($name, $arguments)
     {
+
         $app = app();
         $view = view();
 
